@@ -1,6 +1,6 @@
 from enum import Enum
 from datetime import datetime
-from typing_extensions import Self
+from typing_extensions import Self  # type: ignore
 
 from pydantic import BaseModel, Field  # type: ignore
 from pydantic import model_validator, ValidationError  # type: ignore
